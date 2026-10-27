@@ -25,7 +25,7 @@ export interface GameCategory {
 export interface Game {
   _id: string;
   title: string;
-  description?: string;
+  description?: string | null;
   image: string;
   companyName: string;
   category: GameCategory;
